@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#cd /home/diego/Escritorio/
+#touch hola.txt 
+cd /home/name/face_recognition/
+python fr.py &
+
+exit 0
