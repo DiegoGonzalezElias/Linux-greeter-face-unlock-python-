@@ -1,0 +1,3 @@
+sudo apt install cmake
+sudo pip install face_recognition
+sudo pip install opencv-python
