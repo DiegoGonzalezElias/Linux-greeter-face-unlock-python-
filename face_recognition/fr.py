@@ -75,7 +75,7 @@ while True:
                 os.system('rm /etc/gdm3/custom.conf')
                 os.system('cp /home/name/face_recognition/original/custom.conf /etc/gdm3/')
                 time.sleep(10)
-                return
+                bye()
                 
             face_names.append(name)
 
