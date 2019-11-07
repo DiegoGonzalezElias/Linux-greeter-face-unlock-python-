@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 import os
 import time
+import sys
 
 # This is a demo of running face recognition on live video from your webcam. It's a little more complicated than the
 # other example, but it includes some basic performance tweaks to make things run a lot faster:
@@ -75,7 +76,7 @@ while True:
                 os.system('rm /etc/gdm3/custom.conf')
                 os.system('cp /home/name/face_recognition/original/custom.conf /etc/gdm3/')
                 time.sleep(10)
-                bye()
+                sys.exit()
                 
             face_names.append(name)
 
